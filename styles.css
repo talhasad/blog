@@ -1,0 +1,168 @@
+/******************* Tag selectors *******************/
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+    background-color: #CCF3EE;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 3.75rem;
+    font-family: Dancing Script, handwriting;
+    margin: 0 auto 0 auto;
+    width: 20%;
+}
+
+hr {
+    margin: 50px auto;
+    border: dotted 8px #FFF8D5;
+    border-bottom: 0;
+    width: 20%;
+}
+
+p {
+    line-height: 2;
+    font-size: 2.4rem;
+    font-family: 'Amatic SC', cursive;
+    margin: 0 auto 0 auto;
+    width: 40%;
+    color: #2C3639;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: bold;
+    color: #2C3639;
+}
+
+/******************* class selectors *******************/
+.profile {
+    background-color: #D6D5A8;
+}
+
+.prf {
+    height: 40%;
+    width: 30%;
+    padding: 40px;
+}
+
+.web {
+    color: #66bfbf;
+}
+
+.line {
+    line-height: 2;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.top-container {
+    background-color: #D6EFED;
+    padding: 100px;
+    position: relative;
+}
+
+.bottomcloud {
+    position: absolute;
+    bottom: 400px;
+    left: 350px;
+}
+
+.topcloud {
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.star1 {
+    position: absolute;
+    left: 20px;
+    bottom: 450px;
+    width: 4%;
+}
+
+.star2 {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 4%;
+}
+
+
+.middle-container {
+    background-color: #D6D5A8;
+}
+
+.bottom-container {
+    background-color: #D6D5A8;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    color: #DFBB9D;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer-link:hover {
+    color: #DFBB9D;
+}
+
+.mailicon {
+    position: relative;
+    top: 25px;
+    left: 36px;
+}
+
+.fbicon {
+    width: 3%;
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+
+.insicon {
+    width: 3%;
+    position: relative;
+    top: 23px;
+    left: 20px;
+}
+
+/******************* id selectors *******************/
+
+#skil {
+    color: #2C3639
+}
